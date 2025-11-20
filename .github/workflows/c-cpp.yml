@@ -17,5 +17,5 @@ jobs:
       run: gcc operacoesmatematicas_test.c -o  operacoesmatematicas_test
     - name: executa
       run: ./operacoesmatematicas_test
-   k
+   
     
