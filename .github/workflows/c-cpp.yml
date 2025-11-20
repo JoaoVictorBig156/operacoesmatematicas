@@ -1,0 +1,21 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: conpila
+      run: gcc  operacoesmatematicas_test.c -o  operacoesmatematicas_test
+    - name: executa
+      run: ./operacoesmatematicas_test
+   k
+    
