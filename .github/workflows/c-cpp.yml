@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: conpila
-      run: gcc  operacoesmatematicas_test.c -o  operacoesmatematicas_test
+      run: gcc operacoesmatematicas_test.c -o  operacoesmatematicas_test
     - name: executa
       run: ./operacoesmatematicas_test
    k
