@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 int multiplicar (){
     int numero1,numero2,contador1,contador2,produto;
 
@@ -22,6 +22,7 @@ int multiplicar (){
     printf("\nO produto é igual a %d\n",produto);    
 }
 }
+
 
 
 
