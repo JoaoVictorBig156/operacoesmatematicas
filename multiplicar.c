@@ -21,7 +21,7 @@ int multiplicar (){
     }
     printf("\nO produto é igual a %d\n",produto);    
 }
-}
+
 
 
 
