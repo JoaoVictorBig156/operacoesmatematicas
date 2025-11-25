@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(int num1,int num2)
+int dividir(int num2,int num1)
 {
 
    int quociente;
@@ -15,3 +15,4 @@ void main(int num1,int num2)
     }
    return quociente;
 }
+
