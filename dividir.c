@@ -1,9 +1,17 @@
 #include <stdio.h>
 
-int dividir(int divisor,int dividendo){
- if (divisor==0){
-  printf("Impossivel dividir");
-    return -1;
+void main(int num1,int num2)
+{
+
+   int quociente;
+    if (num2==0){
+        printf("Impossivel dividir");
+        return;
     }
-return dividendo/divisor;
+    quociente = 0;
+    while(num1>=num2){
+        num1-=num2;
+        quociente++;
+    }
+   return quociente;
 }
